@@ -6,6 +6,7 @@ public class PostActivity {
     private int userId;
     private ZonedDateTime lastUpdatedDatetime;
     private String lastUpdatedId;
+    private ZonedDateTime createdTime;
 
     public PostActivity(int userId, ZonedDateTime lastUpdatedDatetime, String lastUpdatedId) {
         this.userId = userId;
